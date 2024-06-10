@@ -12,8 +12,10 @@
   "dependencies": {
     "@types/node": "^20.14.2",
     "lucide-react": "^0.394.0",
+    "maplibre-gl": "^4.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-map-gl": "^7.1.7",
     "react-router-dom": "^6.23.1",
     "remixicon": "^4.2.0"
   },
