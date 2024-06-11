@@ -1,4 +1,4 @@
-import { openStreetMap, arcgis_hybrid, positron, darkMatter, voyager } from './sources'
+import { openStreetMap, arcgis_hybrid, google_streets, google_satelite, positron, darkMatter, voyager, google_satelite_hybrid } from './sources'
 
 export const styles = [  
     { 
@@ -8,6 +8,18 @@ export const styles = [
     { 
       label: 'ArcGIS Hybrid', 
       source: arcgis_hybrid,      
+    },
+    { 
+      label: 'Google Streets', 
+      source: google_streets,      
+    },
+    { 
+      label: 'Google Satelite', 
+      source: google_satelite,      
+    },
+    { 
+      label: 'Google Satelite Hybrid', 
+      source: google_satelite_hybrid,      
     },
     { 
       label: 'Positron', 
