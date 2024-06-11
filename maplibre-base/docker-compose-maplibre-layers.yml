@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  maplibre_layers:
+    container_name: maplibre_layers
+    image: maplibre_layers
+    build: .
+    ports:
+      - "7070:7070"
