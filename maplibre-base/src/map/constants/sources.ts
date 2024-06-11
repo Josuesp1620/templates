@@ -1,4 +1,4 @@
-const arcgis_hybrid = "http://localhost:5173/arcgis_hybrid.json";
+const arcgis_hybrid = "http://37.60.239.85:7070/arcgis_hybrid.json";
 
 const openStreetMap = "https://raw.githubusercontent.com/go2garret/maps/main/src/assets/json/openStreetMap.json";
 
